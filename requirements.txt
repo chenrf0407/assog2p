@@ -1,0 +1,24 @@
+# 核心依赖
+pandas>=1.3.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+scipy>=1.7.0
+
+# 机器学习库
+lightgbm>=3.3.0
+xgboost>=1.5.0
+catboost>=1.0.0
+
+# 可视化库
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+kaleido>=0.2.1
+
+# 可选依赖（推荐安装）
+shap>=0.40.0
+tqdm>=4.62.0
+psutil>=5.8.0
+
+# 可选依赖（性能优化）
+# datatable>=0.11.0  # 如果需要快速读取大文件，取消注释
