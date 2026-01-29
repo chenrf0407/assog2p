@@ -17,17 +17,17 @@ if requirements_file.exists():
         requirements = [line.strip() for line in f if line.strip() and not line.startswith("#")]
 else:
     requirements = [
-        "pandas>=1.3.0",
-        "numpy>=1.21.0",
+        "pandas>=1.3,<2.0",
+        "numpy>=1.20,<2.0",
         "scikit-learn>=1.0.0",
-        "scipy>=1.7.0",
-        "lightgbm>=3.3.0",
-        "xgboost>=1.5.0",
-        "catboost>=1.0.0",
-        "matplotlib>=3.4.0",
-        "seaborn>=0.11.0",
-        "plotly>=5.0.0",
-        "kaleido>=0.2.1",
+        "scipy>=1.7,<2.0",
+        "lightgbm>=3.3,<4.0.0",
+        "xgboost>=1.6,<2.1",
+        "catboost>=1.0,<2.0",
+        "matplotlib>=3.4,<4.0",
+        "seaborn>=0.11,<0.12",
+        "plotly>=5.0,<6.0",
+        "kaleido>=0.2,<0.3",
     ]
 
 setup(
